@@ -1,0 +1,153 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.rarnu",
+    "module": "common-jvm",
+    "version": "1.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.2",
+      "buildId": "hi2e5kx2ujda7lvfwao36rjosq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.7"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-compress",
+          "version": {
+            "requires": "1.20"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.11"
+          }
+        },
+        {
+          "group": "org.jsoup",
+          "module": "jsoup",
+          "version": {
+            "requires": "1.13.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "common-jvm-1.1.0.jar",
+          "url": "common-jvm-1.1.0.jar",
+          "size": 173908,
+          "sha512": "5c2c2c894bbb1d052f28cbc3c105809bd3a7afdec3b4418a7ecebccd2b0c215736bacb5f5d0a38ebc82feab64c765bc7dc8310c53032e9500640c11b9ffa5212",
+          "sha256": "0495a7656323d7b3a304c94e50b694b14921d1a5654c9e47f4aaec8a9dea17bf",
+          "sha1": "7ddd716d125c459c0bcded66a41c808bc4945eb0",
+          "md5": "7ec2b6c87ef3febc657b3156960d20fb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.8.1"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.7"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-compress",
+          "version": {
+            "requires": "1.20"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-lang3",
+          "version": {
+            "requires": "3.11"
+          }
+        },
+        {
+          "group": "org.jsoup",
+          "module": "jsoup",
+          "version": {
+            "requires": "1.13.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "common-jvm-1.1.0.jar",
+          "url": "common-jvm-1.1.0.jar",
+          "size": 173908,
+          "sha512": "5c2c2c894bbb1d052f28cbc3c105809bd3a7afdec3b4418a7ecebccd2b0c215736bacb5f5d0a38ebc82feab64c765bc7dc8310c53032e9500640c11b9ffa5212",
+          "sha256": "0495a7656323d7b3a304c94e50b694b14921d1a5654c9e47f4aaec8a9dea17bf",
+          "sha1": "7ddd716d125c459c0bcded66a41c808bc4945eb0",
+          "md5": "7ec2b6c87ef3febc657b3156960d20fb"
+        }
+      ]
+    }
+  ]
+}
