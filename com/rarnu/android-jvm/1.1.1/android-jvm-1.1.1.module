@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.rarnu",
+    "module": "android-jvm",
+    "version": "1.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.2",
+      "buildId": "vlnqxrwaobdazjd34b35egxtlq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.rarnu",
+          "module": "common-jvm",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "com.handmark.pulltorefresh.library",
+          "module": "PullToRefresh",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android-jvm-1.1.1.jar",
+          "url": "android-jvm-1.1.1.jar",
+          "size": 68868,
+          "sha512": "c5208af790d3ce42e5b0114568ea83bc5d365921f606e2d13826faadaeea3966364bace32d003e71620016602f1848c3a5fc8164b8d65dc1313b7cb61f3e6462",
+          "sha256": "3e6aeda2f0734ac69ee8cd94fd31e9e3587eda92063e707c6b003ebba592cf61",
+          "sha1": "fcdf979a6083248327d15624c7684062c1791f8a",
+          "md5": "2a71e2f4b2085f9dbbf908fd92acff71"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.rarnu",
+          "module": "common-jvm",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "com.handmark.pulltorefresh.library",
+          "module": "PullToRefresh",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "android-jvm-1.1.1.jar",
+          "url": "android-jvm-1.1.1.jar",
+          "size": 68868,
+          "sha512": "c5208af790d3ce42e5b0114568ea83bc5d365921f606e2d13826faadaeea3966364bace32d003e71620016602f1848c3a5fc8164b8d65dc1313b7cb61f3e6462",
+          "sha256": "3e6aeda2f0734ac69ee8cd94fd31e9e3587eda92063e707c6b003ebba592cf61",
+          "sha1": "fcdf979a6083248327d15624c7684062c1791f8a",
+          "md5": "2a71e2f4b2085f9dbbf908fd92acff71"
+        }
+      ]
+    }
+  ]
+}

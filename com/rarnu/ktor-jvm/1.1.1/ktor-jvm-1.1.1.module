@@ -1,0 +1,167 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.rarnu",
+    "module": "ktor-jvm",
+    "version": "1.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.2",
+      "buildId": "mhaxyxbj4rch5n7mzg7pkzzrwq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.rarnu",
+          "module": "common-jvm",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-tomcat",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-host-common",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-sessions",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.2.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-jvm-1.1.1.jar",
+          "url": "ktor-jvm-1.1.1.jar",
+          "size": 50121,
+          "sha512": "20c8e15d34d0d4d2680237a5072f9fc86a5612530ff2eb1f3155c782b48b06afe26a0cf8863f418d53d4eee59df47a8786bec3b196987ed096ca3aea4c796caf",
+          "sha256": "5b53683486966379d971c0b70a16469e40dbb9a4a385f8cf2b18a83bf821809f",
+          "sha1": "a8fd54270f24025215de471363fef8a87af6387f",
+          "md5": "c710875c0cb85f60bcf74397524353cf"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.rarnu",
+          "module": "common-jvm",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-core",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-tomcat",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-host-common",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-server-sessions",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.2.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "ktor-jvm-1.1.1.jar",
+          "url": "ktor-jvm-1.1.1.jar",
+          "size": 50121,
+          "sha512": "20c8e15d34d0d4d2680237a5072f9fc86a5612530ff2eb1f3155c782b48b06afe26a0cf8863f418d53d4eee59df47a8786bec3b196987ed096ca3aea4c796caf",
+          "sha256": "5b53683486966379d971c0b70a16469e40dbb9a4a385f8cf2b18a83bf821809f",
+          "sha1": "a8fd54270f24025215de471363fef8a87af6387f",
+          "md5": "c710875c0cb85f60bcf74397524353cf"
+        }
+      ]
+    }
+  ]
+}
