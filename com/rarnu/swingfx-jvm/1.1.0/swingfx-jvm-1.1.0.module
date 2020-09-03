@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.rarnu",
+    "module": "swingfx-jvm",
+    "version": "1.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.2",
+      "buildId": "e3wksohlhnadxdw7lzxvptci6i"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.rarnu",
+          "module": "common-jvm",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "swingfx-jvm-1.1.0.jar",
+          "url": "swingfx-jvm-1.1.0.jar",
+          "size": 29243,
+          "sha512": "430e669b10add6c167a13c74481da789545833e5254be35b48f8f85e4dabbcf2ea8eade9c9bc483620ecbbbf61620ba24e7be6c1d046846189eaf764938c5fb0",
+          "sha256": "239b5b55b0026748e0f0c7360b1929a15602bf35a590876e96c80fa3f6346397",
+          "sha1": "7f168451ad423816789a34c554f0d3c9d2b2e33d",
+          "md5": "9b2ac3c7bad5f427039448a1f3d4a33e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.rarnu",
+          "module": "common-jvm",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "swingfx-jvm-1.1.0.jar",
+          "url": "swingfx-jvm-1.1.0.jar",
+          "size": 29243,
+          "sha512": "430e669b10add6c167a13c74481da789545833e5254be35b48f8f85e4dabbcf2ea8eade9c9bc483620ecbbbf61620ba24e7be6c1d046846189eaf764938c5fb0",
+          "sha256": "239b5b55b0026748e0f0c7360b1929a15602bf35a590876e96c80fa3f6346397",
+          "sha1": "7f168451ad423816789a34c554f0d3c9d2b2e33d",
+          "md5": "9b2ac3c7bad5f427039448a1f3d4a33e"
+        }
+      ]
+    }
+  ]
+}
