@@ -11,7 +11,7 @@
   "createdBy": {
     "gradle": {
       "version": "6.2",
-      "buildId": "lk4pgifmrbe6hacotknd5z2oum"
+      "buildId": "kturykrorzgi5ouspvzs2y57wa"
     }
   },
   "variants": [
@@ -95,11 +95,11 @@
         {
           "name": "ktor-jvm-1.1.2.jar",
           "url": "ktor-jvm-1.1.2.jar",
-          "size": 65994,
-          "sha512": "0c6e1532b6b10dfa7fe2a762a1ae3aa60cdafa373c4beb4bafbfa4a2fe71258e76aecf59057fc42408eae338a961e7c3f1dfc2e6df38180f44ab40d51673d40d",
-          "sha256": "81f892a7d30d26f5df3f9160a40541c4e14619d7ddbb7cf23c7dc4bf7d2afb3a",
-          "sha1": "a9303ea08e1953bd71979e3f3990f7d7a5fc8532",
-          "md5": "63691c98561a9a50197275156f1a6123"
+          "size": 66209,
+          "sha512": "6370a3ab741b46cd4044eae8be3ad8b73e0f2943e1f3948a9ae82c1f6d0d72ccb9ac66e5c0afe326fba2e19d5688ebc3e439b75261054fbb4c68e83f6c6d11b8",
+          "sha256": "6b5f299ac837d006d6899e7306682e6bc4ff5cbfc3eeb30dd21ccf15a8432bd0",
+          "sha1": "0f20df5354460fc1c844647f373b29997f95f001",
+          "md5": "d2bf469e6c7ce697283cb68423ff29b6"
         }
       ]
     },
@@ -183,11 +183,11 @@
         {
           "name": "ktor-jvm-1.1.2.jar",
           "url": "ktor-jvm-1.1.2.jar",
-          "size": 65994,
-          "sha512": "0c6e1532b6b10dfa7fe2a762a1ae3aa60cdafa373c4beb4bafbfa4a2fe71258e76aecf59057fc42408eae338a961e7c3f1dfc2e6df38180f44ab40d51673d40d",
-          "sha256": "81f892a7d30d26f5df3f9160a40541c4e14619d7ddbb7cf23c7dc4bf7d2afb3a",
-          "sha1": "a9303ea08e1953bd71979e3f3990f7d7a5fc8532",
-          "md5": "63691c98561a9a50197275156f1a6123"
+          "size": 66209,
+          "sha512": "6370a3ab741b46cd4044eae8be3ad8b73e0f2943e1f3948a9ae82c1f6d0d72ccb9ac66e5c0afe326fba2e19d5688ebc3e439b75261054fbb4c68e83f6c6d11b8",
+          "sha256": "6b5f299ac837d006d6899e7306682e6bc4ff5cbfc3eeb30dd21ccf15a8432bd0",
+          "sha1": "0f20df5354460fc1c844647f373b29997f95f001",
+          "md5": "d2bf469e6c7ce697283cb68423ff29b6"
         }
       ]
     }
